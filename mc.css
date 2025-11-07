@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(191, 222, 222);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.bloc-1 {
+    height: 200px;
+    width: 100%;
+    background-color:darkslategrey
+}
+
+.presentation-contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.texte_titre {
+  font-size: 34px;
+  color:lightyellow;
+  text-align: center;
+  margin-top: 3%;
+  background-color: darkslategray;
+}
+
+.texte_description {
+    font-size: 22px;
+   color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .illustration {
+  width: 30%;
+  border:2px solid black;
+  border-radius: 20px; 
+  margin-right: 40px;
+}
+
+.desert {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.mesa {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.darkforest {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.sakura {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.savanna {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+.snowmontains {
+  margin-left: 3%;
+  margin-top: 7%;
+  display: flex;
+  align-items: center;
+}
+
+
+.bouton_inscription {
+      background-color: #268648;
+      color: white;
+      border: 2px black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.bouton_inscription:hover {
+  color: black;
+}
+
+.bloc-2 {
+    height: 200px;
+    width: 100%;
+    background-color:darkslategrey;
+    margin-top: 3%;
+}
+
+.bloc-3 {
+    height: 50px;
+    width: 100%;
+    background-color:darkslategrey;
+}
+
+.blocks {
+      background-color: #268648;
+      color: white;
+      border: 2px black;
+      padding: 20px 40px;
+      border-radius: 8px;
+      font-size: 32px;
+      cursor: pointer;
+      align-items: center;
+      margin-top: 4% ;
+      margin-left: 22% ;
+}
+
+.items {
+      background-color: #268648;
+      color: white;
+      border: 2px black;
+      padding: 20px 40px;
+      border-radius: 8px;
+      font-size: 32px;
+      cursor: pointer;
+      align-items: center;
+      margin-top: 4% ;
+      margin-left:10% ;
+}
+
+.dimensions {
+      background-color: #268648;
+      color: white;
+      border: 2px black;
+      padding: 20px 40px;
+      border-radius: 8px;
+      font-size: 32px;
+      cursor: pointer;
+      align-items: center;
+      margin-top: 4%;
+      margin-left:10% ;
+}
+
+.dimensions:hover {
+  color: black;
+}
+
+.items:hover {
+  color: black;
+}
+
+.blocks:hover {
+  color: black;
+}
+
+.more {
+      background-color: #268648;
+      color: white;
+      border: 2px black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-left: 675px;
+}
