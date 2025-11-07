@@ -56,6 +56,13 @@ body {
     align-items: center;
   }
 
+  .titre_biome {
+  font-size: 34px;
+  color:black;
+  text-align: center;
+  margin-top: 3%;
+  }
+
   .illustration {
   width: 30%;
   border:2px solid black;
@@ -114,7 +121,8 @@ body {
       border-radius: 8px;
       font-size: 16px;
       cursor: pointer;
-      margin-left: 1380px;;
+      display: flex;
+      float: right;
 }
 
 .bouton_menu {
